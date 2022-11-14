@@ -2,5 +2,5 @@
 
 int main(void)
 {
-    printf("hello, team/n");
+    printf("hello, guys/n");
 }
