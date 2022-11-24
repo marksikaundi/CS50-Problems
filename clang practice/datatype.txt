@@ -1,0 +1,20 @@
+Basic Data Types
+
+The data type specifies the size and type of information the variable will store.
+
+In this tutorial, we will focus on the most basic ones:
+Data Type 	Size 	Description
+int 	2 or 4 bytes 	Stores whole numbers, without decimals
+float 	4 bytes 	Stores fractional numbers, containing one or more decimals. Sufficient for storing 7 decimal digits
+double 	8 bytes 	Stores fractional numbers, containing one or more decimals. Sufficient for storing 15 decimal digits
+char 	1 byte 	Stores a single character/letter/number, or ASCII values
+
+Basic Format Specifiers
+
+There are different format specifiers for each data type. Here are some of them:
+Format Specifier 	Data Type 	Try it
+%d or %i 	int 	
+%f 	float 	
+%lf 	double 	
+%c 	char 	
+%s 	Used for strings (text), which you will learn more about in a later chapter
