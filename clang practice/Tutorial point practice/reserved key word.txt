@@ -1,1 +1,282 @@
 All the c programming language reserved keyword
+The 32 Reserved Keywords for C Programming
+
+ 
+
+1. Auto- This keyword is used for automatic variables. These are also known as local variables and they are local to functions.
+
+ 
+
+2. Break- The break keyword is used to probe the program to exit the enclosed loop in which the program is doing. It is used like so:
+
+ 
+
+for (i=1;i<=10;++i)
+
+{
+
+   if (i==3)
+
+   continue;
+
+   if (i==7)
+
+   break;
+
+   printf("%d ",i);
+
+}
+
+ 
+
+3. Case- The case keyword is utilized to single out a statement from the other blocks. This is used along with the switch expression. Here’s how it’s used:
+
+ 
+
+switch(expression)
+
+{
+
+    case '1':
+
+    //some statements to execute when 1
+
+    break;
+
+ 
+
+4. Char- This one is used for character variables. For example:
+
+ 
+
+Char var1;
+
+ 
+
+In this example, Var1 is the variable and the Char keyword is put before the variable.
+
+ 
+
+5. Const- This is used to make the identifiers constant. This is used with an “int” expression.
+
+ 
+
+6. Continue- The continue keyword is used alongside the break keyword. This is used to skip statements inside the loop.
+
+ 
+
+7. Default- The default keyword is used alongside the switch and case keywords. It is used like this:
+
+default:
+
+//some statements to execute when default;
+
+ 
+
+8. Do- The do keyword is used for a do…while loop which tests the expression to see if it is a nonzero number to be true. If it is (0) it is false. Here is an example of how to use it:
+
+ 
+
+do
+
+{
+
+   // codes
+
+}
+
+while (testExpression);
+
+ 
+
+9. Double- The double keyword is used for the declaration of floating variables.
+
+ 
+
+10. Else- The else keyword is for decision making in C programming
+
+ 
+
+else
+
+   prinf("value”)
+
+ 
+
+11. Enum- This keyword is used for enumeration items for example:
+
+ 
+
+enum
+
+{
+
+    Item 1;
+
+    Item 2;
+
+    Item 3;
+
+};
+
+ 
+
+12. Extern-This is used to showcase a variable that has an external link.
+
+ 
+
+13. Float- The float keyword is used with the double keyword for floating variables
+
+ 
+
+14. For-The For keyword is used to create a for loop which can be used to test items with a known number of iterations
+
+ 
+
+15. Goto- Although the goto keyword is often avoided, it may be useful for breaking from a regular sequence. This is how it is used:
+
+ 
+
+goto label;
+
+... .. ...
+
+... .. ...
+
+... .. ...
+
+label:
+
+statement;
+
+ 
+
+16. If- The If keyword is used for evaluating decisions and making them. The code is as follows:
+
+If (testExpression)
+
+ 
+
+{
+
+            // statement
+
+}
+
+ 
+
+17. Int-The Int keyword is often used for integer variables
+
+ 
+
+18. Long-The long keyword is used for altering the base data type to make a new type. This is used for longer numbers.
+
+ 
+
+19. Register-This keyword is used for creating register variables. It is used with the “Int” keyword and variables.
+
+ 
+
+20. Return-Return keyword eliminates the current function and returns the program to the previous value
+
+ 
+
+21. Short-The Short keyword, like the Long keyword, is also used for altering base data type. This is used for short numbers.
+
+ 
+
+22. Signed- Just like the Short and Long keyword, this is also used for altering base data. This is often used for normal integers.
+
+ 
+
+23. Sizeof- the sizeof keyword is an operator which will bring back the size of the data. An example of how to use it is as follows:
+
+ 
+
+#include <stdio.h>
+
+int main()
+
+{
+
+    printf("%u bytes.",sizeof(char));
+
+}
+
+ 
+
+24. Static- This is a keyword used to make static variables.
+
+ 
+
+25. Struct- The Struct keyword is a command that can hold several variables using just one name.
+
+ 
+
+26. Switch- The Switch keyword goes along with the Case and Break keywords just like the example given above in the Case keyword.
+
+ 
+
+27. Typedef- The Typedef keyword connects types with identifiers. An example is given below:
+
+ 
+
+typedef float kg;
+
+ 
+
+28. Union- The Union keyword is used for arranging a collective group and monitoring each individual variable. This can be used as such:
+
+ 
+
+union group
+
+{
+
+    char name[number];
+
+    float marks;
+
+    int variable;
+
+}
+
+ 
+
+29. Unsigned- The Unsigned keyword is a modifier just like the Short, Long, and Signed keywords. However, the Unsigned one is often used for positive integers.
+
+ 
+
+30. Void-The Void keyword is used for showing that a function doesn’t have a value. The code for this is as follows:
+
+ 
+
+void testFunction(int a)
+
+{
+
+  .....
+
+}
+
+ 
+
+31. Volatile- The Volatile Keyword is used for making volatile objects. Volatile objects can only be altered by hardware and not a program.
+
+ 
+
+32. While- The last keyword is the While keyword. The While keyword is used for making a While loop. The While loop is quite like the do…while loop. The code for this is as follows:
+
+ 
+
+while (testExpression)
+
+{
+
+    //codes
+
+}
+
+ 
+
+These 32 C Programming reserved keywords are used for altering some functions in the program. While these are just reserved keywords, they are quite useful in some cases although not all the time. When programming with the C Programming language, it pays to know how these work and the codes that will allow them to function in the event that you will need to make use of them. Though you may not need to memorize all 32 of them, it will help to know the basic principles behind their usage.
